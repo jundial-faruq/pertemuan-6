@@ -56,3 +56,20 @@ int main(){
     cout << "Alamat = " << mhs.alamat << endl;
 
 }
+
+
+#include <iostream>
+using namespace std;
+
+struct detailAlamat{
+    string desa;
+    string kota;
+};
+
+struct mahasiswa{
+    string nim;
+    string nama;
+    detailAlamat alamat
+
+};
+
